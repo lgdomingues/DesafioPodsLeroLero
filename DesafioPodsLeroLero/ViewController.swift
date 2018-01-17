@@ -7,19 +7,30 @@
 //
 
 import UIKit
+import PodGerarLeroLero
 
 class ViewController: UIViewController {
 
+    //MARK: - Outlets
+    @IBOutlet weak var labelLero: UILabel!
+    
+    //MARK: - Propriedades
+    
+    //MARK: - Métodos de ViewCicle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.labelLero.text = ""
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    //MARK: - Actions
+    @IBAction func novoLero(_ sender: UIButton) {
+        
+        self.labelLero.text = LeroLeroGenerator.gerarLeroLero()
+        
     }
-
+    
+    //MARK: - Metodos Próprios
 
 }
 

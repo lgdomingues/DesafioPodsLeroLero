@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2973D970C0136C8CD2717D0C /* Pods_DesafioPodsLeroLero.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C440CD4B7DE5D86FDC808D56 /* Pods_DesafioPodsLeroLero.framework */; };
 		43E21BF020100EE70088C637 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E21BEF20100EE70088C637 /* AppDelegate.swift */; };
 		43E21BF220100EE70088C637 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E21BF120100EE70088C637 /* ViewController.swift */; };
 		43E21BF520100EE70088C637 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43E21BF320100EE70088C637 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A6737588A2455199A65D995 /* Pods-DesafioPodsLeroLero.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioPodsLeroLero.release.xcconfig"; path = "Pods/Target Support Files/Pods-DesafioPodsLeroLero/Pods-DesafioPodsLeroLero.release.xcconfig"; sourceTree = "<group>"; };
 		43E21BEC20100EE70088C637 /* DesafioPodsLeroLero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioPodsLeroLero.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43E21BEF20100EE70088C637 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43E21BF120100EE70088C637 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		43E21BF620100EE70088C637 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43E21BF920100EE70088C637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43E21BFB20100EE70088C637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ABCD5B0F58D9955E210AD1A /* Pods-DesafioPodsLeroLero.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioPodsLeroLero.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DesafioPodsLeroLero/Pods-DesafioPodsLeroLero.debug.xcconfig"; sourceTree = "<group>"; };
+		C440CD4B7DE5D86FDC808D56 /* Pods_DesafioPodsLeroLero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesafioPodsLeroLero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2973D970C0136C8CD2717D0C /* Pods_DesafioPodsLeroLero.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				43E21BEE20100EE70088C637 /* DesafioPodsLeroLero */,
 				43E21BED20100EE70088C637 /* Products */,
+				7FEE9D311C9D2CB91483278A /* Pods */,
+				7496FA0739BB25DE46D67E90 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +71,23 @@
 			path = DesafioPodsLeroLero;
 			sourceTree = "<group>";
 		};
+		7496FA0739BB25DE46D67E90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C440CD4B7DE5D86FDC808D56 /* Pods_DesafioPodsLeroLero.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FEE9D311C9D2CB91483278A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5ABCD5B0F58D9955E210AD1A /* Pods-DesafioPodsLeroLero.debug.xcconfig */,
+				2A6737588A2455199A65D995 /* Pods-DesafioPodsLeroLero.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43E21BFE20100EE70088C637 /* Build configuration list for PBXNativeTarget "DesafioPodsLeroLero" */;
 			buildPhases = (
+				4438B4600CE3CC75789E4812 /* [CP] Check Pods Manifest.lock */,
 				43E21BE820100EE70088C637 /* Sources */,
 				43E21BE920100EE70088C637 /* Frameworks */,
 				43E21BEA20100EE70088C637 /* Resources */,
+				F3C848BF9F9CBB1FA8B56F58 /* [CP] Embed Pods Frameworks */,
+				D7804BEBC7BF3A530378E8CF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +157,60 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4438B4600CE3CC75789E4812 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DesafioPodsLeroLero-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7804BEBC7BF3A530378E8CF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DesafioPodsLeroLero/Pods-DesafioPodsLeroLero-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3C848BF9F9CBB1FA8B56F58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DesafioPodsLeroLero/Pods-DesafioPodsLeroLero-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PodGerarLeroLero/PodGerarLeroLero.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PodGerarLeroLero.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DesafioPodsLeroLero/Pods-DesafioPodsLeroLero-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		43E21BE820100EE70088C637 /* Sources */ = {
@@ -272,6 +353,7 @@
 		};
 		43E21BFF20100EE70088C637 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ABCD5B0F58D9955E210AD1A /* Pods-DesafioPodsLeroLero.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +368,7 @@
 		};
 		43E21C0020100EE70088C637 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A6737588A2455199A65D995 /* Pods-DesafioPodsLeroLero.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
